@@ -18,7 +18,7 @@ O meu procedimento neste desafio foi:
 - Os meus testes foram bem sucedidos, assim como efetuar todos os procedimentos acima
 através da linha de comando no terminal do Kali Linux.
 
-segur print da tela dos resultados para materializar o cumprimento 
+segue print da tela dos resultados para materializar o cumprimento 
 
 ![resoluçãoi desafio ransomware](https://github.com/DanyBC/cibersecurity-desafio-ransomware/assets/119118430/d69504e0-df6c-4170-b158-31c51ac2459c)
 
