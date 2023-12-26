@@ -28,12 +28,24 @@ Meus entendimentos:
 
 O que pude compreender do código apresentado foi o seguinte: 
 
+- Encrypt:
+
 Primeiro foram baixadas as bibliotecas "os" e "pyaes" do Python,
 para interagir com o sistema operacional e para efetuar a criptografia do arquivo, respectivamente. 
 na sequência ele abre o arquivo de teste, lê e captura o conteúdo para poder criptografar e fecha o arquivo teste.
-é introduzida a chave de criptografia que será usada para codificar o conteúdo do arquivo
+o programa então, após capturar as informações contidas no arquivo, deleta o arquivo original.
+utilizando a chave de criptografia apresentada, ele criptografa o conteúdo do arquivo que já foi apagado
+então ele cria um novo arquivo criptografado, onde o usuário não consegua acessar as informações do seu próprio arquivo,
+esse arquivo no caso está sendo salvo com o nome: "teste.txt.ransomwaretroll".
 
-então ele cria um novo arquivo criptografado com base na chave apresentada 
-(no caso a chave: "testeransomwares" com 16 caracteres), utilizando a biblioteca pyaes.
+- Decrypt:
+
+inicia da mesma forma, baixando as bibliotecas necessárias e abrindo o arquivo criptografado para capturar as informações.
+o programa então, com a mesma chave utilizada para criptografar o arquivo, reverte o processo deixando o arquivo novamente
+acessível ao usuário original.
+na sequência é feita a exclusão do arquivo criptografado e um novo arquivo é criado, com o conteúdo original antes do ransomware
+ser executado. 
+
+
 
 
